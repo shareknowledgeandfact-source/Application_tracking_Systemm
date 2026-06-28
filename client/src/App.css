@@ -1,0 +1,83 @@
+/* Full App */
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #eef2ff, #ffffff);
+  padding-bottom: 30px;
+}
+
+/* Main Container */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+/* Heading */
+h2 {
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 25px;
+}
+
+/* Card */
+.card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+/* Card Hover */
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(13, 110, 253, 0.2);
+}
+
+/* Card Title */
+.card-title {
+  font-weight: 600;
+  color: #212529;
+}
+
+/* Card Text */
+.card-text {
+  color: #6c757d;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Badge */
+.badge {
+  padding: 8px 14px;
+  font-size: 0.8rem;
+}
+
+/* Form */
+form.card {
+  margin-bottom: 30px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+}
